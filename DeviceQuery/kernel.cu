@@ -37,20 +37,12 @@ int main(int argc, char **argv) {
 		}
 
 		wbLog(TRACE, "Device ", dev, " name: ", deviceProp.name);
-		wbLog(TRACE, " Computational Capabilities: ", deviceProp.major, ".",
-			deviceProp.minor);
-		wbLog(TRACE, " Maximum global memory size: ",
-			deviceProp.totalGlobalMem);
-		wbLog(TRACE, " Maximum constant memory size: ",
-			deviceProp.totalConstMem);
-		wbLog(TRACE, " Maximum shared memory size per block: ",
-			deviceProp.sharedMemPerBlock);
-		wbLog(TRACE, " Maximum block dimensions: ",
-			deviceProp.maxThreadsDim[0], " x ", deviceProp.maxThreadsDim[1],
-			" x ", deviceProp.maxThreadsDim[2]);
-		wbLog(TRACE, " Maximum grid dimensions: ", deviceProp.maxGridSize[0],
-			" x ", deviceProp.maxGridSize[1], " x ",
-			deviceProp.maxGridSize[2]);
+		wbLog(TRACE, " Computational Capabilities: ", deviceProp.major, ".", deviceProp.minor);
+		wbLog(TRACE, " Maximum global memory size: ", deviceProp.totalGlobalMem);
+		wbLog(TRACE, " Maximum constant memory size: ", deviceProp.totalConstMem);
+		wbLog(TRACE, " Maximum shared memory size per block: ",	deviceProp.sharedMemPerBlock);
+		wbLog(TRACE, " Maximum block dimensions: ",	deviceProp.maxThreadsDim[0], " x ", deviceProp.maxThreadsDim[1], " x ", deviceProp.maxThreadsDim[2]);
+		wbLog(TRACE, " Maximum grid dimensions: ", deviceProp.maxGridSize[0], " x ", deviceProp.maxGridSize[1], " x ", deviceProp.maxGridSize[2]);
 		wbLog(TRACE, " Warp size: ", deviceProp.warpSize);
 	}
 

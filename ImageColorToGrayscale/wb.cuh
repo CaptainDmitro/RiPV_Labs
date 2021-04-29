@@ -1088,7 +1088,7 @@ void wbSolution(const wbArg_t& args, const wbImage_t& image)
 	{
 		wbInternal::wbImage_save(image, args, "transformed_image.ppm");
 
-		const float tolerance = 1000.0f;
+		const float tolerance = 2.0f;
 		int errCnt = 0;
 
 		for (int i = 0; i < image.width; ++i)
