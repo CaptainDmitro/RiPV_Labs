@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module4", "Module4", "{E572
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicMatrixMultiplication", "BasicMatrixMultiplication\BasicMatrixMultiplication.vcxproj", "{33D8794A-68CE-440E-8FD2-CBAAE0C6F7AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TiledMatrixMultiplication", "TiledMatrixMultiplication\TiledMatrixMultiplication.vcxproj", "{B02EA403-7545-408C-BBFF-A39256B8E0DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -77,6 +79,14 @@ Global
 		{33D8794A-68CE-440E-8FD2-CBAAE0C6F7AE}.Release|x64.Build.0 = Release|x64
 		{33D8794A-68CE-440E-8FD2-CBAAE0C6F7AE}.Release|x86.ActiveCfg = Release|Win32
 		{33D8794A-68CE-440E-8FD2-CBAAE0C6F7AE}.Release|x86.Build.0 = Release|Win32
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Debug|x64.ActiveCfg = Debug|x64
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Debug|x64.Build.0 = Debug|x64
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Debug|x86.Build.0 = Debug|Win32
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Release|x64.ActiveCfg = Release|x64
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Release|x64.Build.0 = Release|x64
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Release|x86.ActiveCfg = Release|Win32
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +98,6 @@ Global
 		{3870EBC5-8B04-4D78-A4AD-819AA180217B} = {AAB9F7C1-C7E9-40F8-8CC0-7843122DB26D}
 		{6CED0182-F83F-4D1B-81F5-FE7EDBCBED08} = {AAB9F7C1-C7E9-40F8-8CC0-7843122DB26D}
 		{33D8794A-68CE-440E-8FD2-CBAAE0C6F7AE} = {E572DBD0-DB5D-4226-8B31-379003C5AD1A}
+		{B02EA403-7545-408C-BBFF-A39256B8E0DE} = {E572DBD0-DB5D-4226-8B31-379003C5AD1A}
 	EndGlobalSection
 EndGlobal
